@@ -1058,8 +1058,11 @@ function mlu_led(sta,link)
 
 	if (link & 0x01) == 0x00 then
 		set_value(mlu_home_page,6,0)
+		set_enable(mlu_home_page,30,0)
+		
 	end
 	if (link & 0x01) == 0x01 then
+		set_enable(mlu_home_page,30,1)
 		 if  (sta & 0x01) == 0 then
  			set_value(mlu_home_page,6,1)
 			else 	
@@ -1069,8 +1072,10 @@ function mlu_led(sta,link)
 ----------------------------------------
  	if (link & 0x02) == 0x00 then
 		set_value(mlu_home_page,7,0)
+ 		set_enable(mlu_home_page,31,0)	
 	end
 	if (link & 0x02) == 0x02 then
+		set_enable(mlu_home_page,31,1)		
 		 if  (sta & 0x02) == 0 then
  			set_value(mlu_home_page,7,1)
 			else 	
@@ -1081,8 +1086,10 @@ function mlu_led(sta,link)
 	------------------------------------------------
   	if (link & 0x04) == 0x00 then
 		set_value(mlu_home_page,8,0)
+ 	set_enable(mlu_home_page,32,0)		
 	end
 	if (link & 0x04) == 0x04 then
+		set_enable(mlu_home_page,32,1)		
 		 if  (sta & 0x04) == 0 then
  			set_value(mlu_home_page,8,1)
 			else 	
@@ -1092,8 +1099,10 @@ function mlu_led(sta,link)
 	--------------------------------------------	
    	if (link & 0x08) == 0x00 then
 		set_value(mlu_home_page,9,0)
+ 	set_enable(mlu_home_page,33,0)		
 	end
 	if (link & 0x08) == 0x08 then
+	set_enable(mlu_home_page,33,1)		
 		 if  (sta & 0x08) == 0 then
  			set_value(mlu_home_page,9,1)
 			else 	
@@ -1103,8 +1112,10 @@ function mlu_led(sta,link)
 	--------------------------------------------
 	  	if (link & 0x10) == 0x00 then
 		set_value(mlu_home_page,10,0)
+ 		set_enable(mlu_home_page,34,0)		
 	end
 	if (link & 0x10) == 0x10 then
+		set_enable(mlu_home_page,34,1)		
 		 if  (sta & 0x10) == 0 then
  			set_value(mlu_home_page,10,1)
 			else 	
@@ -1114,8 +1125,10 @@ function mlu_led(sta,link)
 	--------------------------------------------	
 	  	if (link & 0x20) == 0x00 then
 		set_value(mlu_home_page,11,0)
+ 		set_enable(mlu_home_page,35,0)		
 	end
 	if (link & 0x20) == 0x20 then
+		set_enable(mlu_home_page,35,1)		
 		 if  (sta & 0x20) == 0 then
  			set_value(mlu_home_page,11,1)
 			else 	
@@ -1213,13 +1226,8 @@ function on_control_notify(screen,control,value)
 					end
  				 	if value ==0 then
  						btn_id = 01000	
-						set_enable(mlu_home_page,30,1)
- 						set_enable(mlu_home_page,31,1)
-						set_enable(mlu_home_page,32,1)
-						set_enable(mlu_home_page,33,1)
-						set_enable(mlu_home_page,34,1)
-						set_enable(mlu_home_page,35,1)
-						set_enable(mlu_home_page,36,1)	
+						 mlu_led(0,chanel_connect)
+ 				
 						 start_timer(7,200,0,0)
 						 if (chanel_state&0x01) == 0x01 then
 							stop_timer(0)
@@ -1238,7 +1246,9 @@ function on_control_notify(screen,control,value)
 						 end  
 					    if (chanel_state&0x20) == 0x20 then
 							stop_timer(5)
+ 							
 						 end 
+ 							chanel_state = 0 	 
 					end	
   
 			  end		
@@ -1321,7 +1331,7 @@ function on_uart_recv_data(packet)					----接受数据
 
 		chanel_connect  = door_buff[4]
 		change_screen(mlu_home_page)
- 		_btn_chanel_endble(chanel_connect)	
+ 		--_btn_chanel_endble(chanel_connect)	
 		mlu_led(chanel_state,chanel_connect)
 		stop_timer(8)
 
@@ -1475,10 +1485,7 @@ function _ask_chanel_cmd()
 
 end
 
-function _btn_chanel_endble(val)
 
-	
-end
 
 
 

@@ -14,30 +14,30 @@
         <page name="Screen0" id="11" />
     </pages>
     <images>
-        <image id="0" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\home_page_back.jpg" effect_width="1280" effect_height="800" />
-        <image id="1" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\preinstal_back .png" effect_width="893" effect_height="441" />
-        <image id="2" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\set_btn.png" effect_width="110" effect_height="46" />
-        <image id="3" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\channel_status.ICON" effect_width="58" effect_height="58" />
-        <image id="4" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\preinstal_one.png" effect_width="196" effect_height="70" />
-        <image id="5" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\preinstal_down_one.png" effect_width="196" effect_height="70" />
-        <image id="6" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\preinstal_two.png" effect_width="196" effect_height="70" />
-        <image id="7" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\preinstal_down_two.png" effect_width="196" effect_height="70" />
-        <image id="8" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\preinstal_three.png" effect_width="196" effect_height="70" />
-        <image id="9" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\preinstal_down_three.png" effect_width="196" effect_height="70" />
-        <image id="10" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\iconLIUS下\channel _lius_down.ICON" effect_width="72" effect_height="35" />
-        <image id="11" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\save.png" effect_width="298" effect_height="70" />
-        <image id="12" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\start.png" effect_width="196" effect_height="70" />
-        <image id="13" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\stop.png" effect_width="196" effect_height="70" />
-        <image id="14" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\sync.png" effect_width="196" effect_height="70" />
-        <image id="15" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\sync_down.png" effect_width="196" effect_height="70" />
-        <image id="16" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\Query_save.png" effect_width="1280" effect_height="800" />
-        <image id="17" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\set_page.png" effect_width="1280" effect_height="800" />
-        <image id="18" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\used_im_btn.png" effect_width="1190" effect_height="96" />
-        <image id="19" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\equi_im_btn.png" effect_width="1189" effect_height="96" />
-        <image id="20" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\usage_back.png" effect_width="1280" effect_height="800" />
+        <image id="0" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\home_page_back.jpg" effect_width="1280" effect_height="800" />
+        <image id="1" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\preinstal_back .png" effect_width="893" effect_height="441" />
+        <image id="2" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\set_btn.png" effect_width="110" effect_height="46" />
+        <image id="3" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\channel_status.ICON" effect_width="58" effect_height="58" />
+        <image id="4" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\preinstal_one.png" effect_width="196" effect_height="70" />
+        <image id="5" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\preinstal_down_one.png" effect_width="196" effect_height="70" />
+        <image id="6" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\preinstal_two.png" effect_width="196" effect_height="70" />
+        <image id="7" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\preinstal_down_two.png" effect_width="196" effect_height="70" />
+        <image id="8" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\preinstal_three.png" effect_width="196" effect_height="70" />
+        <image id="9" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\preinstal_down_three.png" effect_width="196" effect_height="70" />
+        <image id="10" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\iconLIUS下\channel _lius_down.ICON" effect_width="72" effect_height="35" />
+        <image id="11" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\save.png" effect_width="298" effect_height="70" />
+        <image id="12" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\start.png" effect_width="196" effect_height="70" />
+        <image id="13" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\stop.png" effect_width="196" effect_height="70" />
+        <image id="14" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\sync.png" effect_width="196" effect_height="70" />
+        <image id="15" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\sync_down.png" effect_width="196" effect_height="70" />
+        <image id="16" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\Query_save.png" effect_width="1280" effect_height="800" />
+        <image id="17" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\set_page.png" effect_width="1280" effect_height="800" />
+        <image id="18" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\used_im_btn.png" effect_width="1190" effect_height="96" />
+        <image id="19" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\equi_im_btn.png" effect_width="1189" effect_height="96" />
+        <image id="20" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\usage_back.png" effect_width="1280" effect_height="800" />
         <image id="21" url="C:\Users\jia\AppData\Local\Temp\slider_3_1.png" effect_width="49" effect_height="79" />
         <image id="22" url="C:\Users\jia\AppData\Local\Temp\cursor_0_0.png" effect_width="24" effect_height="24" />
-        <image id="23" url="e:\desktop\n_fl_ur\111\8_tes\project - 加通讯\images\equi_informatiom_page.png" effect_width="1280" effect_height="800" />
+        <image id="23" url="e:\desktop\n_fl_ur\111\8_tes\wz109jzj\images\equi_informatiom_page.png" effect_width="1280" effect_height="800" />
     </images>
     <waves />
 </Resource>
